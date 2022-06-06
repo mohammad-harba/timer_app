@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   Duration duration = Duration();
-  var counter = 86500;
+  var counter = 0;
   String twoDigits(int n) => n.toString().padLeft(2, '0');
   @override
   void initState() {
